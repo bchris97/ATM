@@ -1,8 +1,20 @@
 
 #include <iostream>
+using namespace std;
+
+void showMenu() {
+    cout << "********MENU********" << endl;
+    cout << "1. Check Balance" << endl;
+    cout << "2. Deposit" << endl;
+    cout << "3. Withdraw" << endl;
+    cout << "********************" << endl;
+}
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    showMenu();
+
+    return 0;
 }
 
